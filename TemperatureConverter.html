@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<title>Farenheit to Celcius Converter</title>
+<body>
+
+<h2>Temperature Converter</h2>
+<p>Enter the temperature in Farenheit to convert to Celcius:</p>
+
+<p>
+  <label>Farenheit</label>
+  <input id="tempF" type="number" placeholder="Farenheit" type="number">
+Celcius: <span id="tempC"></span></p>
+<button type="convert"  onclick="TempConverter()" name="button">Convert</button>
+
+<script>
+function TempConverter() {
+  // C = (1°F − 32) × 5/9
+  var valNum = document.getElementById("tempF").value;
+
+  if (valNum == "" || isNaN(valNum) ) {
+    document.getElementById("tempC").innerHTML="Enter a valid input";
+  }
+  else{
+    document.getElementById("tempC").innerHTML=((valNum - 32)*5/9).toFixed(2)+String.fromCharCode(176)+"C";
+  }
+}
+</script>
+</body>
+</html>
