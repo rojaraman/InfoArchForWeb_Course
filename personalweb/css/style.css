@@ -1,0 +1,101 @@
+.bio{
+	justify-content: center;
+
+}
+.bio img{
+	border-radius: 50%;
+	margin-left:45%;
+}
+.bio h1,h2,p{
+	justify-content: center;
+	text-align: center;
+}
+#main{
+	border: 2px solid#5b9aa0;
+}
+.intro {
+	width: 75%;
+	justify-content: center;
+	margin-left: 10%;
+}
+.intro p{
+	text-align: center;
+	justify-content: center;
+}
+.toc{
+	justify-content: center;
+}
+ul {
+	  list-style-type: none;
+	  margin: 0;
+	  padding: 0;
+	  overflow: hidden;
+	  background-color: #333;
+	  padding-left: 30%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+* {box-sizing: border-box}
+
+.container {
+  	width: 100%;
+  	background-color: #ddd;
+	margin-left: 22%;
+}
+.skill{
+	width: 70%;
+	justify-content: center;
+}
+.skill p{
+	margin-left: 45%;
+}
+
+.skills {
+  text-align: right;
+  padding: 10px;
+  color: white;
+}
+
+.python {width: 70%; background-color: yellowgreen;}
+.html {width: 95%; background-color: green;}
+.java {width: 90%; background-color: green;}
+.css {width: 85%; background-color: green;}
+.js {width: 80%; background-color: seagreen;}
+.php {width: 70%; background-color: yellowgreen;}
+
+/*Reference: www.w3schools.com*/
